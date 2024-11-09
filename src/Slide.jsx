@@ -34,21 +34,24 @@ const Slide = () => {
                 <SwiperSlide>
                     <section className='slide-description-content'>
                         <h1>Elektrik proje<br /> <span className='text'>Yönetimi</span></h1>
-                        <p>Biz, <strong> <bold>Yetkili Elektrik</bold></strong> olarak elektrik proje yönetimi alanında uzmanlaşmış bir firmayız. Mühendislik bilgi ve deneyimimizi, her türlü elektrik altyapı ve sistem projelerinde başarıyla uygulayarak, müşterilerimize en yüksek kaliteyi sunmayı hedefliyoruz.</p>
+                        <p>Biz, <strong>Yetkili Elektrik</strong> olarak elektrik proje yönetiminde uzmanlaşmış bir firmayız. Elektrik altyapı ve sistem projelerinde yüksek kaliteyi hedefliyoruz.</p>
+
                     </section>
                     <img className='slide-img' src={slideİmg2} alt='Elektrik proje yönetimi' />
                 </SwiperSlide>
                 <SwiperSlide>
                     <section className='slide-description-content' >
-                        <h1>Topraklama raporu<br /> <span className='text'>fen adamı</span></h1>
-                        <p>Topraklama sistemlerinin güvenli ve etkili bir şekilde çalışmasını sağlamak için profesyonel topraklama raporu hizmetleri sunuyoruz. Elektrik tesisatlarında güvenliği en üst düzeye çıkarmak ve olası tehlikeleri minimize etmek amacıyla, uluslararası standartlar ve yerel yönetmeliklere uygun kapsamlı topraklama ölçümleri ve analizleri gerçekleştiriyoruz.</p>
+                        <h1>Topraklama <br /> <span className='text'>raporu</span></h1>
+                        <p>Topraklama sistemlerinin güvenli çalışması için profesyonel topraklama raporu hizmeti sunuyoruz. Elektrik tesisatlarında güvenliği artırmak için uluslararası standartlara uygun ölçüm ve analizler yapıyoruz.</p>
+
                     </section>
-                    <img className='slide-img' src={slideİmg3} alt='Topraklama raporu' />
+                    <img className='slide-img' src={slideİmg3} alt='Ağ, OG ve AG enerji talepleri' />
                 </SwiperSlide>
                 <SwiperSlide>
                     <section className='slide-description-content'>
-                        <h1>Topraklama raporu<br /> <span className='text'>fen adamı</span></h1>
-                        <p>Ağ ve Orta Gerilim (OG) ile Alçak Gerilim (AG) enerji talepleri konusunda uzmanlaşmış bir firmayız. Enerji altyapılarının planlanması, tasarımı ve talep süreçlerinin yönetimi konusunda geniş bir deneyime sahibiz. Projelerinizin enerji ihtiyacını doğru bir şekilde belirleyerek, güvenli, verimli ve sürdürülebilir çözümler sunuyoruz.</p>
+                        <h1>Ağ, OG ve AG  <br /> <span className='text'>enerji talepleri</span></h1>
+                        <p>Ağ, OG ve AG enerji talepleri konusunda uzmanlaşmış bir firmayız. Enerji altyapılarının planlama, tasarım ve yönetimi alanında geniş deneyime sahibiz. Projelerinizin enerji ihtiyacını doğru belirleyerek, güvenli ve verimli çözümler sunuyoruz.</p>
+
                     </section>
                     <img className='slide-img' src={slideİmg4} />
                 </SwiperSlide>
