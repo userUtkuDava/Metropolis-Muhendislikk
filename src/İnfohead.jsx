@@ -6,7 +6,7 @@ const İnfohead = () => {
         <div className='social-media-content'>
 
             <div className='social-media-item col-md-2'>
-                <a href="https://wa.me/905313606980" target='_blank'>
+                <a href="https://wa.me/905313606918" target='_blank'>
                     <i className="bi bi-whatsapp social-icons">
                     </i>
                 </a>

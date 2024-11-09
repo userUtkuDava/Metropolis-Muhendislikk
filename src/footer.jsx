@@ -16,7 +16,7 @@ const footer = () => {
 
                         {/* Whatsapp */}
                         <a
-                            href="https://wa.me/905313606980" target='_blank'
+                            href="https://wa.me/905313606918" target='_blank'
                             data-mdb-ripple-init
                             className="btn text-white btn-floating m-1"
                             style={{ backgroundColor: 'green' }}
@@ -68,10 +68,10 @@ const footer = () => {
                 {/* Grid container */}
 
                 {/* Copyright */}
-                <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-                    © 2020 Copyright:
+                <div className="text-center text-secondary p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+                    © 2020 Copyright: Bu siteye ait tüm içerik, <span className='bold text-dark'>Yetkili Elektrik </span>tarafından korunmaktadır.
                     <a className="text-body" href="https://userutkudava.github.io/portfolio" target="_blank">
-                        UTKU DAVA
+
                     </a>
                 </div>
                 {/* Copyright */}

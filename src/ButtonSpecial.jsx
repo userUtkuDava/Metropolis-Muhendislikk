@@ -9,12 +9,17 @@ const ButtonSpecial = () => {
     const handleMouseLeave = () => {
         setButtonText('YETKİLİ ELEKTRİK')
     }
+    const handleClick = () => {
+        window.location.href = 'tel:+905313606918';
+    };
+
     return (
         <>
             <button
                 className='special-button'
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
+                onClick={handleClick}
             >
                 {buttonText}
             </button>

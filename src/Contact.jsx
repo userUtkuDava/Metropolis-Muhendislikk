@@ -70,10 +70,11 @@ const Contact = () => {
                                 <div className="col-md-3">
                                     <div className="dbox w-100 text-center">
                                         <div className="icon d-flex align-items-center justify-content-center">
-                                            <span className="bi bi-geo-alt"></span>
+                                            <span className="bi bi-geo-alt" ></span>
                                         </div>
                                         <div className="text">
-                                            <p><span>Adres:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+                                            <p><span>Adres:</span> Göztepe Mah. Batışehir Cad. Batışehir K Blok <br /> No:2/2  Daire:115 <br />
+                                                Bağcılar / İstanbul</p>
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +84,7 @@ const Contact = () => {
                                             <span className="bi bi-phone"></span>
                                         </div>
                                         <div className="text">
-                                            <p><span>Telefon:</span> <a href="tel:+905313606980">+0531 360 6980</a></p>
+                                            <p><span>Telefon:</span> <a href="tel:+905313606980">+0531 360 6918 </a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -103,7 +104,7 @@ const Contact = () => {
                                             <span className="bi bi-whatsapp"></span>
                                         </div>
                                         <div className="text">
-                                            <p><span>Whatsapp:</span><a href="https://wa.me/905313606980" target='_blank'> Whatsapp'dan İlet</a></p>
+                                            <p><span>Whatsapp:</span><a href="https://wa.me/905313606918" target='_blank'> Whatsapp'dan İlet</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -188,14 +189,14 @@ const Contact = () => {
 
                                 {/* Google Map iframe */}
                                 <div className="col-md-5 d-flex align-items-stretch">
-                                    <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d96264.02356981447!2d28.75954256524067!3d41.063511552724975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x14caa55c0d1f14bd%3A0x8079c776424e0f59!2zR8O2enRlcGUsIEdvenRlcGUgbWFoZWxsYXNpIGJhdGlzZWhpciwgxLBzdGlrbGFsIENkLiwgMzQxMDAgS8O8w6fDvGvDp2VrbWVjZS_EsHN0YW5idWw!3m2!1d41.0635409!2d28.841943399999998!5e0!3m2!1str!2str!4v1731169617622!5m2!1str!2str" width="600" height="470" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 
