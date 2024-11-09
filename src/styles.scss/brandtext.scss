@@ -1,0 +1,92 @@
+@import './first.scss';
+
+
+.brand-container {
+  background-color: white !important;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+}
+
+.brand-text-container {
+  padding: 0px 50px;
+  margin-top: 8rem;
+}
+
+.brand-text-title {
+  h2 {
+    color: $primary-color;
+
+    font-size: 1.5rem;
+  }
+}
+
+.brand-text-big-title {
+  h1 {
+    line-height: 50px;
+    color: #933f01;
+  }
+}
+
+.brand-text-paragraf {
+  p {
+    color: black;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: "Nunito", sans-serif;
+  }
+}
+
+
+.brand-claim-container {
+  margin-top: 1rem;
+
+  .calim-images {
+    max-width: 90px;
+    max-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+
+    img {
+      align-items: center;
+      width: 90%;
+      height: 90%;
+      line-height: 50px;
+    }
+  }
+
+  .claim-title {
+    color: #935900;
+
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+
+  .claim-text {
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+  }
+
+  .brand-text-icons {
+    color: $primary-color-bold;
+
+    margin-top: 6px;
+  }
+
+}
+
+.brand-img-container {
+  margin-top: 12rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+  }
+}

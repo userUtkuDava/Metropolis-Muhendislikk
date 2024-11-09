@@ -1,0 +1,148 @@
+@import './first.scss';
+
+.services-container{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  width: 100%;
+  min-height: 120vh;
+   margin-bottom: 5rem;
+   height:auto;
+ 
+
+  position: relative;
+  .custom-div-container{
+    margin-bottom: 3rem;
+
+  }
+   .custom-div {
+    padding: 1rem;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    max-height: 250px;
+    background-color:transparent; /* Div arka plan rengi */
+    color: white; /* Yazı rengi */
+    /* İç boşluk */
+    border-radius: 10px;  
+    &:hover {
+        img {
+            
+            border: solid 10px $primary-color;
+        }
+        
+        .text-img-services {
+           opacity: 1; // Hover durumunda göster
+        }
+    }
+
+            img{
+                width: 100%;
+                height: 100%;
+                background-position:center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: relative;
+                transition: all .3s;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px 5px #d6d6d6;
+           
+            }
+            .text-img-services {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 1s;
+                position: absolute;
+                bottom:-40px;
+                width: auto;
+                height: auto;
+                max-height:50px ;
+                color: #6f6447;
+                
+                 padding: 8px 30px;
+             
+                
+
+             
+                 h2{
+                    margin-top: 5px;
+                  font-size: 1.2rem;
+                   text-align: center;
+                    
+                    padding: 5px 20px;
+                    max-width: 375px;
+                    
+                 }
+            }
+            
+        }
+ 
+
+
+}
+.bedaş{
+    height: auto;
+display:flex;
+align-items: center;
+
+}
+.main-text-container{
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: "Nunito", sans-serif;
+margin:10rem 0rem;
+background: linear-gradient(to bottom, #6f6447, #5a4a36);
+
+
+h1{
+    font-family: "PT Serif", serif;
+    text-align: left;
+    color: white;
+    align-items: center;
+    border: solid;
+    padding:10px 15px;
+}
+p{ 
+    color: white;
+    
+}
+}
+
+.detail-service-active{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+
+}
+
+.services-icons {
+    font-size: 1.3rem;
+    
+   
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .custom-div {
+        .text-img-services {
+            h2 {
+               
+                padding: 5px 20px;
+                max-width: 375px;
+                font-weight: 500;
+                width: auto; 
+                font-size: 1rem !important; // Adjusted font size for better visibility
+                
+            }
+        }
+    }
+}
