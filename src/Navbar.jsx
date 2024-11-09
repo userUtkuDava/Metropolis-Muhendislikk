@@ -4,8 +4,10 @@ import { useState, useEffect } from 'react'
 import logo from './assets/1.png'
 import ButtonSpecial from './ButtonSpecial'
 const Navbar = () => {
+
     const [navbarSm, setnavbarSm] = useState('header-sm-menu');
     const [isClicked, setIsClicked] = useState('click');
+
     const handleClick = () => {
         setIsClicked(!isClicked);
     };

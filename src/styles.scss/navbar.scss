@@ -62,6 +62,12 @@ $primary-color:#998d69;
     transition: color 0.3s;
     text-decoration: none;
    margin-top: 20px;
+ 
+
+  &:hover {
+    color: #933f01!important; /* Metin rengini şeffaf yapıyoruz, arka plandaki geçiş ön planda olacak */
+  }
+
 
   }
  #special-link{
@@ -83,8 +89,8 @@ $primary-color:#998d69;
     color:white !important;
     background-color: black !important;
     }
-  .header .header-content .header-main .header__link:hover {
-    color: var(--primaryColor);
+  .header .header-content .header-main .header__link:focus {
+     color: black;
   }
   .header .header-sm-menu {
     background: #000000e3;
