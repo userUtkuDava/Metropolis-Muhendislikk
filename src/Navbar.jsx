@@ -74,7 +74,7 @@ const Navbar = () => {
                         </li>
 
                         <li className="header__sm-menu-link">
-                            <a href="./#hizmetlerimiz" onClick={handleClick}> Hizmetlerimiz </a>
+                            <a href="./#hizmetler" onClick={handleClick}> Hizmetlerimiz </a>
                         </li>
 
                         <li className="header__sm-menu-link">
