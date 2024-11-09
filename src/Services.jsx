@@ -43,11 +43,17 @@ const Services = () => {
                             Elektrik altyapı projelerinizde uzman kadromuz ve deneyimimizle, Ağ ve Og (Orta Gerilim ve Alçak Gerilim) enerji talepleri, topraklama raporları, elektrik tesisat kontrol raporları gibi önemli hizmetleri sunmaktayız. Ayrıca, BEDAŞ ve AYEDAŞ gibi dağıtım şirketlerine yönelik taleplerinizin takibi, projelendirilmesi ve onay süreçlerinde de hizmet vermekteyiz.
                         </p>
                         <button className='btn btn-light brand-color-text mt-3 fw-bold'>
-                            <i class="bi bi-telephone"></i>  0531 360 69 18
+                            <a href='tel:+905313606980'
+                            >
+                                <i
+                                    class="bi bi-telephone">
+                                </i>
+                                0531 360 69 18
+                            </a>
                         </button>
                     </div>
                 </div>
-            </div>
+            </div >
 
             <section id='hizmetler' className='container services-container'>
                 <div
