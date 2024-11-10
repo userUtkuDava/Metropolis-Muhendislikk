@@ -10,11 +10,13 @@ import Services from './Services';
 import Contact from './Contact';
 import Footer from './footer';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Whatsapp from './Whatsapp';
 
 function App() {
 
   return (
     <>
+      <Whatsapp />
       <Navbar />
       <Slide />
       <Deneme />

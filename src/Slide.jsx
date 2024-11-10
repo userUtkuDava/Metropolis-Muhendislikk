@@ -45,12 +45,12 @@ const Slide = () => {
                         <p>Topraklama sistemlerinin güvenli çalışması için profesyonel topraklama raporu hizmeti sunuyoruz. Elektrik tesisatlarında güvenliği artırmak için uluslararası standartlara uygun ölçüm ve analizler yapıyoruz.</p>
 
                     </section>
-                    <img className='slide-img' src={slideİmg3} alt='Ağ, OG ve AG enerji talepleri' />
+                    <img className='slide-img' src={slideİmg3} alt='OG ve AG enerji talepleri' />
                 </SwiperSlide>
                 <SwiperSlide>
                     <section className='slide-description-content'>
-                        <h1>Ağ, OG ve AG  <br /> <span className='text'>enerji talepleri</span></h1>
-                        <p>Ağ, OG ve AG enerji talepleri konusunda uzmanlaşmış bir firmayız. Enerji altyapılarının planlama, tasarım ve yönetimi alanında geniş deneyime sahibiz. Projelerinizin enerji ihtiyacını doğru belirleyerek, güvenli ve verimli çözümler sunuyoruz.</p>
+                        <h1>OG ve AG  <br /> <span className='text'>enerji talepleri</span></h1>
+                        <p>OG ve AG enerji talepleri konusunda uzmanlaşmış bir firmayız. Enerji altyapılarının planlama, tasarım ve yönetimi alanında geniş deneyime sahibiz. Projelerinizin enerji ihtiyacını doğru belirleyerek, güvenli ve verimli çözümler sunuyoruz.</p>
 
                     </section>
                     <img className='slide-img' src={slideİmg4} />

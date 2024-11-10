@@ -2,7 +2,7 @@
 $primary-color:#998d69;
 .header {
   position: sticky;
-  top: 0;
+  top: 50px;
     width: 100%;
     z-index: 1000;
     box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
@@ -117,10 +117,10 @@ $primary-color:#998d69;
     
     .header {
       position: fixed;
-      top: 0;
+      top:50px;
         width: 100%;
         z-index: 1000;
-        background: #7e6363;
+       
         box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
         height: auto;
       }
@@ -172,24 +172,22 @@ $primary-color:#998d69;
     }
     .click {
       display: flex !important;
-      position: fixed;
-     top: 5%;
-      background-color:$primary-color;
+      position:absolute;
+      align-items: center;
+      
       right: 20px;
       z-index: 9999999;
-      padding: 5px 15px;
-  
-      font-size: 16px;
-      color:white;
+      padding: 5px 10px;
+      font-size: 24px;
+      color:$primary-color;
       border-radius: 5px;
       transition: all 0.3s;
       border: var(--primaryColor);
     }
     .clicked {
-      display: block !important;
-      position: fixed;
-      border: none;
-      top: 32px;
+      display: flex !important;
+      position:absolute;
+      align-items: center;
       background-color:black;
       right: 20px;
       z-index: 9999999;
@@ -200,7 +198,10 @@ $primary-color:#998d69;
       transition: all 0.3s;
     }
     .header-content {
-      padding: 1rem 5rem !important;
+      position: relative;
+      display: flex;
+      
+      padding: 1rem 6rem !important;
     }
 
   }

@@ -56,15 +56,15 @@ const Services = () => {
                             <strong>Elektrik Projeleri ve Enerji Çözümleri</strong><br />
 
                             Hizmetlerimiz
-                            Elektrik altyapı projelerinizde uzman kadromuz ve deneyimimizle, Ağ ve Og (Orta Gerilim ve Alçak Gerilim) enerji talepleri, topraklama raporları, elektrik tesisat kontrol raporları gibi önemli hizmetleri sunmaktayız. Ayrıca, BEDAŞ ve AYEDAŞ gibi dağıtım şirketlerine yönelik taleplerinizin takibi, projelendirilmesi ve onay süreçlerinde de hizmet vermekteyiz.
+                            Elektrik altyapı projelerinizde uzman kadromuz ve deneyimimizle, Ag ve Og (Orta Gerilim ve Alçak Gerilim) enerji talepleri, topraklama raporları, elektrik tesisat kontrol raporları gibi önemli hizmetleri sunmaktayız. Ayrıca, BEDAŞ ve AYEDAŞ gibi dağıtım şirketlerine yönelik taleplerinizin takibi, projelendirilmesi ve onay süreçlerinde de hizmet vermekteyiz.
                         </p>
                         <button className='btn btn-light brand-color-text mt-3 fw-bold'>
                             <a href='tel:+905313606980'
                             >
                                 <i
-                                    class="bi bi-telephone">
+                                    className="bi bi-telephone mx-2">
                                 </i>
-                                0531 360 69 18
+                                +90 531 360 69 18
                             </a>
                         </button>
                     </div>
@@ -217,7 +217,7 @@ const Services = () => {
                             alt="jenaratör Proje Ve Ruhsatlandırma"
                         />
                         <div className='text-img-services'>
-                            <i class="bi bi-activity services-icons"></i>  <h2>Ağ ve Og enerji talepleri</h2>
+                            <i class="bi bi-activity services-icons"></i>  <h2>Ag ve Og enerji talepleri</h2>
                         </div>
                     </div>
                 </div>

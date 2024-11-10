@@ -36,6 +36,12 @@ const Navbar = () => {
         <>
             <div className={`header  ${isNavbarVisible ? 'header-visible' : 'header-hidden'}`} >
                 <div className='header-content'>
+                    <button
+                        onClick={handleClick}
+                        className={`button ${isClicked ? 'click' : 'clicked'}`}
+                    >
+                        <i className="bi bi-list"></i>
+                    </button >
                     <div className='header-logo-container'>
                         <div className='header-logo-img-cont'>
                             <img src={logo} alt="Utku Dava Logo Image" className="header-logo-img" />
@@ -86,12 +92,7 @@ const Navbar = () => {
                 </div>
 
             </div >
-            <button
-                onClick={handleClick}
-                className={`button ${isClicked ? 'click' : 'clicked'}`}
-            >
-                <i className="bi bi-list"></i>
-            </button >
+
 
 
         </>

@@ -56,8 +56,7 @@ const Contact = () => {
                     Bizimle İletişime Geçin
                 </h1>
                 <p className='col-8 title-description'>
-                    Elektrik mühendisliği alanında uzman kadromuzla size en iyi hizmeti sunmak için buradayız. Sorularınız, projeleriniz veya işbirlikleri için bizimle iletişime geçmekten çekinmeyin.
-                    Sizinle çalışmayı dört gözle bekliyoruz!
+                    Elektrik mühendisliği alanında uzman kadromuzla size en iyi hizmeti sunmak için buradayız. Sorularınız, projeleriniz veya işbirlikleri için bizimle iletişime geçebilirsiniz.
                 </p>
             </div>
 
@@ -84,7 +83,7 @@ const Contact = () => {
                                             <span className="bi bi-phone"></span>
                                         </div>
                                         <div className="text">
-                                            <p><span>Telefon:</span> <a href="tel:+905313606980">+0531 360 6918 </a></p>
+                                            <p><span>Telefon:</span> <a href="tel:+905313606980">+90 531 360 6918 </a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -189,7 +188,7 @@ const Contact = () => {
 
                                 {/* Google Map iframe */}
                                 <div className="col-md-5 d-flex align-items-stretch">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d96264.02356981447!2d28.75954256524067!3d41.063511552724975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x14caa55c0d1f14bd%3A0x8079c776424e0f59!2zR8O2enRlcGUsIEdvenRlcGUgbWFoZWxsYXNpIGJhdGlzZWhpciwgxLBzdGlrbGFsIENkLiwgMzQxMDAgS8O8w6fDvGvDp2VrbWVjZS_EsHN0YW5idWw!3m2!1d41.0635409!2d28.841943399999998!5e0!3m2!1str!2str!4v1731169617622!5m2!1str!2str" width="600" height="470" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d96264.02356981447!2d28.75954256524067!3d41.063511552724975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x14caa55c0d1f14bd%3A0x8079c776424e0f59!2zR8O2enRlcGUsIEdvenRlcGUgbWFoZWxsYXNpIGJhdGlzZWhpciwgxLBzdGlrbGFsIENkLiwgMzQxMDAgS8O8w6fDvGvDp2VrbWVjZS_EsHN0YW5idWw!3m2!1d41.0635409!2d28.841943399999998!5e0!3m2!1str!2str!4v1731169617622!5m2!1str!2str" width="600" height="470" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
