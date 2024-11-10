@@ -1,7 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './styles.scss/services.scss';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+import 'swiper/css/thumbs';
+
+import './styles.scss/slide.scss';
+
+// import required modules
+import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+
+
+
 
 // resimler
 import bedas from './assets/bedaş.png';
@@ -11,6 +28,9 @@ import services3 from './assets/services-3.png';
 import services4 from './assets/services-4.png';
 import services5 from './assets/services-5.png';
 import services6 from './assets/services-6.jpg';
+import galeri1 from './assets/galeri1.jpg';
+import galeri2 from './assets/galeri2.jpg';
+import galeri3 from './assets/galeri3.jpg';
 
 
 
@@ -18,6 +38,7 @@ import services6 from './assets/services-6.jpg';
 
 const Services = () => {
     const [detailServiceActive, setDetailServiceActive] = useState(false)
+    const [thumbsSwiper, setThumbsSwiper] = useState(null);
     const detailService = () => {
 
     };
@@ -26,11 +47,6 @@ const Services = () => {
         <>
             <div className='container-fluid'>
                 <div className='row'>
-                    <div
-                        className="col-12 col-md-4 bedaş"
-                    >
-                        <img src={bedas} alt="BEDAŞ" />
-                    </div>
                     <div className='col-12 col-md-8  main-text-container p-5'>
                         <h1 className='main-text'>
                             YETKİLİ ELEKTRİK & PROJE MUHENDİSLİĞİ
@@ -51,6 +67,50 @@ const Services = () => {
                                 0531 360 69 18
                             </a>
                         </button>
+                    </div>
+                    <div className="col-12 col-md-4 ">
+                        <Swiper
+                            style={{
+                                '--swiper-navigation-color': '#fff',
+                                '--swiper-pagination-color': '#fff',
+                            }}
+                            spaceBetween={0}
+                            navigation={false}
+                            thumbs={{ swiper: thumbsSwiper }}
+                            modules={[FreeMode, Navigation, Thumbs]}
+                            className="mySwiper-galeri"
+                        >
+                            <SwiperSlide>
+                                <img src={galeri1} />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={galeri2} />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={galeri3} />
+                            </SwiperSlide>
+
+                        </Swiper>
+                        <Swiper
+                            onSwiper={setThumbsSwiper}
+                            spaceBetween={5}
+                            slidesPerView={3}
+                            freeMode={true}
+                            watchSlidesProgress={true}
+                            modules={[FreeMode, Navigation, Thumbs]}
+                            className="mySwiper-galeri-images"
+                        >
+                            <SwiperSlide>
+                                <img src={galeri1} />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={galeri2} />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <img src={galeri3} />
+                            </SwiperSlide>
+
+                        </Swiper>
                     </div>
                 </div>
             </div >

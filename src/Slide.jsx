@@ -23,7 +23,7 @@ const Slide = () => {
 
     return (
         <>
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+            <Swiper navigation={true} modules={[Navigation]} className="mySwiper-main">
                 <SwiperSlide>
                     <section className='slide-description-content' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                         <h1>Yetkili elektrik<br /> <span className='text'>fen adamı</span></h1>
