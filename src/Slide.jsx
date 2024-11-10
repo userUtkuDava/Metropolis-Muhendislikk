@@ -42,7 +42,11 @@ const Slide = () => {
                 <SwiperSlide>
                     <section className='slide-description-content' >
                         <h1>Topraklama <br /> <span className='text'>raporu</span></h1>
-                        <p>Topraklama sistemlerinin güvenli çalışması için profesyonel topraklama raporu hizmeti sunuyoruz. Elektrik tesisatlarında güvenliği artırmak için uluslararası standartlara uygun ölçüm ve analizler yapıyoruz.</p>
+                        <p>Topraklama sistemlerinin güvenli çalışması için profesyonel topraklama raporu hizmeti sunuyoruz. Elektrik tesisatlarında güvenliği artırmak için uluslararası standartlara uygun ölçüm ve analizler yapıyoruz.<br />
+
+                            <strong> Bakanlık Onaylı Ekipnet Belgeli Elektrik İç tesisat Uygunguluk Kontrolü ve Topraklama Ölçümü Hizmetleri </strong>
+
+                        </p>
 
                     </section>
                     <img className='slide-img' src={slideİmg3} alt='OG ve AG enerji talepleri' />
@@ -55,7 +59,7 @@ const Slide = () => {
                     </section>
                     <img className='slide-img' src={slideİmg4} />
                 </SwiperSlide>
-            </Swiper>
+            </Swiper >
             <İnfoHead />
         </>
     );
